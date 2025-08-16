@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../imagens/pexels-bri-schneiter-28802-346529.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    align-items: center;
+    color: white;
+}
+
+header li{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.search{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+main{
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+li:hover{
+    color:rgb(7, 119, 211); 
+    cursor: pointer;
+}
+
+#todo{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 75vw;
+    height: 60vh;
+    gap: 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+}
+
+#welc{
+    background-color:transparent;
+    width: 60%;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+}
+
+.comprimento{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h2{
+    font-size: 3em;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1.3em;
+    text-align: justify;
+    width: 65%;
+}
+
+.redes{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+.redes i{
+    font-size: 1.7em;
+    
+}
+
+#login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(3, 131, 153, 0.555);
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+
+}
+
+.entrada > p{
+    width: 100%;
+    text-align: center;
+}
+
+.labol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    width: 100%;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    padding-left: 10px;
+    outline: none;
+}
+
+i:hover{
+    color:rgb(7, 119, 211); 
+    cursor: pointer;
+}
+
+#login h3{
+   font-size: 3em;
+   margin-bottom: 35px;
+}
+
+#enviar{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+a{
+    color: white;
+}
