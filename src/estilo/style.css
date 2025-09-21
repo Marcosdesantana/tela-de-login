@@ -27,12 +27,14 @@ header li{
 }
 
 .search{
-    border: none;
+    background-color: transparent;
+    border: 1px solid rgb(6, 153, 216);
     width: 250px;
     height: 30px;
     border-radius: 10px;
     padding: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+    outline: none;
 }
 
 main{
@@ -148,12 +150,13 @@ p{
 
 .botoes{
     width: 100%;
-    border: none;
+    border: 1px solid rgb(3, 133, 113);
     height: 35px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
     padding-left: 10px;
     outline: none;
+    background-color: transparent;
 }
 
 i:hover{
@@ -173,5 +176,5 @@ i:hover{
 }
 
 a{
-    color: white;
+    color:white;
 }
