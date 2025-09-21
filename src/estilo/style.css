@@ -130,13 +130,19 @@ p{
     background-color: rgba(3, 131, 153, 0.555);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+}
+
 .entrada{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 80%;
-
-}
+    width: 80%;}
 
 .entrada > p{
     width: 100%;

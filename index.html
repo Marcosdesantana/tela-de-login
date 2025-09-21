@@ -41,20 +41,20 @@
             <section id="login"> 
                 <h3>Sing In</h3>
                 <div class="entrada">
-                    <input class="botoes" type="email" name="nome" id="inome" placeholder="Email">
-
-                    <input class="botoes" type="password" required placeholder="Password">
-                    <div class="labol">
-                        <p>
-                            <input  type="checkbox" name="esquecer" id="iesquecer">
-                            <label for="iesquecer">Remember me</label>
-                        </p>
-                        <a href="#">Forgot Password?</a>
-
-                    </div>
-                    <div>
-                        <input id="enviar" class="botoes" type="submit" value="Sing In">
-                    </div>
+                    <form action="cadastro.php">
+                        <input class="botoes" type="email" name="nome" required id="inome" placeholder="Email">
+                        <input class="botoes" type="password" required placeholder="Password">
+                        <div class="labol">
+                            <p>
+                                <input  type="checkbox" name="esquecer" id="iesquecer">
+                                <label for="iesquecer">Remember me</label>
+                            </p>
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <div>
+                            <input id="enviar" class="botoes" type="submit" value="Sing In">
+                        </div>
+                    </form>
                     <p>Dont`t have on account?<a href="#">Sing In</a></p>
                 </div>
             </section>
