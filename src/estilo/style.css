@@ -189,15 +189,11 @@ a{
 
 @media screen and (max-width:1550px){
     
-   #comprimento{
-       display: flex;
-       flex-direction: column;
-       justify-content: space-around;
-   }
 
    #comprimento > h2{
     position: absolute;
     top: 15px;
+    color: red;
    }
 
    #comprimento > h1{
