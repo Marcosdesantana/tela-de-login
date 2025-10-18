@@ -202,17 +202,17 @@ a{
 
    #comprimento > h1{
     position: absolute;
-    top: 50px;
+    top: 75px;
    }
 
    #comprimento > h3{
     position: absolute;
-    top: 65px;
+    top: 90px;
    }
 
    #comprimento > p{
     position: absolute;
-    top: 80px;
+    top: 110px;
    }
     
 }
