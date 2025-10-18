@@ -194,5 +194,25 @@ a{
        flex-direction: column;
        justify-content: space-around;
    }
+
+   #comprimento > h2{
+    position: absolute;
+    top: 15px;
+   }
+
+   #comprimento > h1{
+    position: absolute;
+    top: 50px;
+   }
+
+   #comprimento > h3{
+    position: absolute;
+    top: 65px;
+   }
+
+   #comprimento > p{
+    position: absolute;
+    top: 80px;
+   }
     
 }
