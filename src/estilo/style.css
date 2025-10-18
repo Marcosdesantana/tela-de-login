@@ -186,3 +186,11 @@ i:hover{
 a{
     color:white;
 }
+
+@media screen and (max-width:1550px){
+    
+   #welc{
+       display: flex;
+   }
+    
+}
