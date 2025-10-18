@@ -128,6 +128,7 @@ p{
     justify-content: center;
     color: white;
     background-color: rgba(3, 131, 153, 0.555);
+    font-weight: bolder;
 }
 
 form {
@@ -163,6 +164,7 @@ form {
     padding-left: 10px;
     outline: none;
     background-color: transparent;
+    font-weight: bolder;
 }
 
 i:hover{
