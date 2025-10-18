@@ -191,6 +191,7 @@ a{
     
    #welc{
        display: flex;
+       flex-direction: column;
    }
     
 }
