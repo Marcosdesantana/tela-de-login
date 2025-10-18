@@ -191,9 +191,11 @@ a{
     
 
    .comprimento{
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
    }
 
   
