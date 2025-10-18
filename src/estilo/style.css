@@ -190,23 +190,23 @@ a{
 @media screen and (max-width:1550px){
     
 
-   #comprimento > h2{
+   .comprimento > h2{
     position: absolute;
     top: 15px;
     color: red;
    }
 
-   #comprimento > h1{
+   .comprimento > h1{
     position: absolute;
     top: 75px;
    }
 
-   #comprimento > h3{
+   .comprimento > h3{
     position: absolute;
     top: 90px;
    }
 
-   #comprimento > p{
+   .comprimento > p{
     position: absolute;
     top: 110px;
    }
