@@ -189,9 +189,10 @@ a{
 
 @media screen and (max-width:1550px){
     
-   #welc{
+   #comprimento{
        display: flex;
        flex-direction: column;
+       justify-content: space-around;
    }
     
 }
